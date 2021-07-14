@@ -143,15 +143,15 @@ news area start here
   align-items: center;
   padding: 10px;
 }
-.news-thumbail img {
+.single-news-thumbail img {
   width: 250px;
   height: 150px;
   border-radius: 5px;
 }
-.news-info {
+.single-news-info {
   margin-left: 15px;
 }
-.news-info button {
+.single-news-info button {
   margin-top: 0px;
 }
 /*------------------ 
@@ -245,16 +245,16 @@ media quaries for mobile
     text-align: center;
   }
   .banner-image img {
-    width: 90%;
+    width: 95%;
   }
   .banner-text {
     text-align: justify;
     margin-bottom: 50px;
+    padding-left: 20px;
   }
   .players {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
-    width: 100%;
   }
   .player {
     width: 310px;
@@ -266,6 +266,17 @@ media quaries for mobile
   }
   .news-area {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .single-news{
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .single-news img{
+    width: 90%;
+    height: 50%;
+  }
+  .single-news-info{
+    margin: 0;
   }
   .footer-img img {
     width: 200px;
