@@ -56,7 +56,7 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 0 86px 0;
+  padding: 0px 0 86px 50px;
 }
 .banner:hover .banner-image img {
   transform: rotate(20deg);
