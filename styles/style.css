@@ -56,13 +56,12 @@ nav ul li a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 0 86px 50px;
+  padding: 0px 0 86px 0px;
 }
-.banner:hover .banner-image img {
-  transform: rotate(20deg);
-}
+
 .banner-text {
   width: 45%;
+  padding-left: 2%;
 }
 .banner-text h1 {
   color: white;
@@ -94,6 +93,9 @@ nav ul li a {
 }
 .banner-image img {
   width: 388px;
+}
+.banner:hover .banner-image img {
+  transform: rotate(20deg);
 }
 /*------------
 header css end 
